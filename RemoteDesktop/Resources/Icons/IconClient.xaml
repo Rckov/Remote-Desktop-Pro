@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+   <DrawingImage x:Key="IconClient">
+      <DrawingImage.Drawing>
+         <DrawingGroup ClipGeometry="M0,0 V24 H24 V0 H0 Z">
+            <GeometryDrawing Geometry="F1 M24,24z M0,0z M8,7A4,4,0,1,0,16,7A4,4,0,0,0,8,7">
+               <GeometryDrawing.Pen>
+                  <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+               </GeometryDrawing.Pen>
+            </GeometryDrawing>
+            <GeometryDrawing Geometry="F1 M24,24z M0,0z M16,19L22,19">
+               <GeometryDrawing.Pen>
+                  <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+               </GeometryDrawing.Pen>
+            </GeometryDrawing>
+            <GeometryDrawing Geometry="F1 M24,24z M0,0z M19,16L19,22">
+               <GeometryDrawing.Pen>
+                  <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+               </GeometryDrawing.Pen>
+            </GeometryDrawing>
+            <GeometryDrawing Geometry="F1 M24,24z M0,0z M6,21L6,19A4,4,0,0,1,10,15L14,15">
+               <GeometryDrawing.Pen>
+                  <Pen Brush="#FF000000" Thickness="1" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+               </GeometryDrawing.Pen>
+            </GeometryDrawing>
+         </DrawingGroup>
+      </DrawingImage.Drawing>
+   </DrawingImage>
+</ResourceDictionary>
